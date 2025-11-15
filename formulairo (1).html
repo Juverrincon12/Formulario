@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+
+    <h2>Formulario de Contacto</h2>
+
+    <form>
+
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre" required><br><br>
+
+        <label>Apellido:</label><br>
+        <input type="text" name="apellido" required><br><br>
+
+        <label>Tipo de Identificación:</label><br>
+        <select name="tipo_id" required>
+            <option value="">Seleccione</option>
+            <option value="CC">Cédula de Ciudadanía</option>
+            <option value="TI">Tarjeta de Identidad</option>
+            <option value="CE">Cédula de Extranjería</option>
+            <option value="PA">Pasaporte</option>
+        </select><br><br>
+
+        <label>Número de Identificación:</label><br>
+        <input type="text" name="numero_id" required><br><br>
+
+        <label>Fecha de Nacimiento:</label><br>
+        <input type="date" name="fecha_nacimiento" required><br><br>
+
+        <label>Número de Celular:</label><br>
+        <input type="tel" name="celular" placeholder="Ej: 3001234567" required><br><br>
+
+        <input type="checkbox" required> Acepto la política de privacidad<br><br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</body>
+</html>
